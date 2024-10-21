@@ -13,12 +13,14 @@ header{
 
 #contenedor__logolibiaheader{
     display: flex;
-    height: 150px;
+    height: 225px;
+    background-color: white;
+    border: 3px solid grey;
 }
 
 #imagen__circularlogoheader{
-    width: 50%;
-    height: 110%;
+    width: 10%;
+    height: 70%;
     align-self: center;
 }
 
