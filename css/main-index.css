@@ -395,7 +395,6 @@ a{
     'copy copy copy';
 
     grid-column-gap: 20px;
-    grid-row-gap: 10px;
 
 
     color: black;
@@ -450,7 +449,6 @@ a{
 #contenedor__fotosredes{
     display: flex;
     width: 12%;
-    margin-top: 1%;
     margin-left: -2.3%;
 }
 
@@ -465,7 +463,7 @@ a{
 
 
 #contenedor__copyright{
-
+    background-color: beige;
     grid-area: copy;
     display: flex;
     justify-content: center;

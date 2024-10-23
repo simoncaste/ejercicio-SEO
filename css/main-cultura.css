@@ -1,18 +1,19 @@
-*{
+
+
+* {
     margin: 0;
     padding: 0;
 }
+
 body{
-    background-color: aqua;
+    background-color: rgb(177, 177, 177);
 }
 
-header{
-    padding-top: 2.5%;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
+header {
+    padding: 2.5% 2.5% 0;
 }
 
-#contenedor__logolibiaheader{
+#contenedor__logolibiaheader {
     padding-left: 1%;
     display: flex;
     height: 200px;
@@ -20,72 +21,92 @@ header{
     border: 2px solid grey;
 }
 
-#imagen__circularlogoheader{
+#imagen__circularlogoheader {
     width: 14%;
     height: 80%;
     align-self: center;
 }
 
-header img{
+header img {
     width: 100%;
     height: 100%;
 }
 
-#contenedor__libiaheader{
+#contenedor__libiaheader {
     align-self: center;
 }
 
-#contenedor__libiaheader h1{
+#contenedor__libiaheader h1 {
     font-size: 100px;
 }
 
-
-
-menu{
+menu {
     background-color: white;
     padding-top: 4%;
     height: 100px;
     border: 2px solid grey;
 }
 
-.carousel {
-    position: relative;
-    width: 350px;
-    height: 200px;
-    overflow: hidden;
-}
-
-.carousel-item img {
+.img_carrusel {
     width: 100%;
-    height: auto; 
+    height: 100%;
 }
 
-.carousel-caption {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    background: rgba(0, 0, 0, 0.5); 
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
+#slider-box {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 50px;
+    justify-content: center;
+    grid-area: slider-box;
 }
 
-.carousel-indicators button {
-    background-color: rgba(255, 255, 255, 0.5);
-    border: none;
+#slider-box ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 10s infinite ease-in-out;
 }
 
-.carousel-indicators .active {
-    background-color: white;
+#slider-box li {
+    width: 100%;
+    list-style: none;
+    position: relative;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color: rgba(0, 0, 0, 0.5); 
-    border-radius: 50%; 
+#slider-box img {
+    width: 100%;
+    border-radius: 20px;
 }
 
-.carousel-control-prev-icon:focus,
-.carousel-control-next-icon:focus {
-    outline: none; 
+@keyframes slide {
+    0%, 20% { margin-left: 0; }
+    25%, 45% { margin-left: -100%; }
+    50%, 70% { margin-left: -200%; }
+    75%, 100% { margin-left: -300%; }
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'slider-box texto';
+    height: auto;
+    width: 100%;
+}
+
+#texto {
+    grid-area: texto;
+    margin-top: 150px;
+}
+
+.img_danza, .img_vestimenta {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
 }
