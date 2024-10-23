@@ -18,7 +18,6 @@ header{
     display: flex;
     height: 180px;
     background-color: beige;
-    border: 2px solid grey;
     border-radius: 50px;
     align-items: center;
 }
@@ -52,7 +51,6 @@ header{
     background-color: beige;
     margin-top: 1.5%;
     height: 70px;
-    border: 2px solid grey;
     width: 750px;
     border-radius: 50px;
 }
