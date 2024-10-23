@@ -30,7 +30,7 @@ header{
 }
 
 #imagen__header{
-    width: 175%;
+    width: 160%;
     height: 90%;
     border-radius: 50px;
 }
@@ -108,11 +108,19 @@ header{
 
 
 #main{
+    width: 100%;
     margin-top: 5%;
     height:  1000px;
     display: flex;
     justify-content: center;
 }
+
+#titulo__maininfo{
+    font-size: 50 px;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
 
 #contenedor__2{
     background-color: beige;
@@ -123,10 +131,22 @@ header{
 
 
 #parrafo__main{
-    margin-top: 6%;
+    margin-top: 2%;
     margin-left: 2%;
     margin-right: 2%;
+
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 #contenedor__imagenes{
@@ -139,17 +159,20 @@ header{
 #contenedor__primerafoto{
     height: 450px;
     border-radius: 25px;
+
 }
+
+
 #imagen__primerafoto{
     width: 90%;
     height: 87.5%;
     border-radius: 25px;
     margin-left: 5%;
-    margin-top: 3.7%;
+    margin-top: -4%;
     border: solid 3px beige;
     margin-top: 7%;
-}
 
+}
 
 
 
@@ -159,7 +182,7 @@ header{
 #contenedor__segundafoto{
     height: 500px;
     border-radius: 25px;
-    
+
 }
 
 #imagen__segundafoto{
@@ -177,6 +200,126 @@ header{
 
 
 
+
+
+
+
+
+
+
+
+
+
+#contenedor__primerafoto{
+    position: relative;
+
+}
+
+#contenedor__primerafoto img {
+    transition: opacity 0.3s ease; /* Suaviza la transición de opacidad */
+}
+
+#contenedor__primerafoto:hover img {
+    opacity: 0.5; /* Opacidad al pasar el cursor */
+}
+
+#text-overlay1{
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+#contenedor__primerafoto:hover #text-overlay1{
+    opacity: 1; /* El texto aparece al pasar el cursor */
+}
+
+
+
+
+
+
+
+
+#contenedor__segundafoto{
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Ajusta el tamaño de la imagen */
+}
+
+#contenedor__segundafoto img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease; /* Suaviza la transición de opacidad */
+}
+
+#contenedor__segundafoto:hover img {
+    opacity: 0.5; /* Opacidad al pasar el cursor */
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+#contenedor__segundafoto:hover .text-overlay {
+    opacity: 1; /* El texto aparece al pasar el cursor */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Sectioooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooon*/
 
 
@@ -184,6 +327,7 @@ header{
     display: flex;
     justify-content: center;
     height: 900px;
+    width: 100%;
 }
 
 #contenedor__ubimapa{
@@ -232,9 +376,10 @@ header{
 
 #article{
     margin-top: 8%;
-    height: 800px;
+    height: 900px;
     display: flex;
     justify-content: center;
+    width: 100%;
 }   
 
 #contenedor__politica{
@@ -258,12 +403,12 @@ header{
 
 
 
-
-
 #contenedor__parrafopolitica{
-    line-height: 2.5;
-    margin-top: 6%;
-    height: 500px;
+    line-height: 2;
+    margin-top: 3%;
+    height: 550px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 #parrafo__politica{
@@ -271,7 +416,15 @@ header{
 }
 
 
-
+#boton__article{
+    width: 250px;
+    background-color: beige;
+    color:  rgb(177, 177, 177);
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 70%;
+    border:  rgb(177, 177, 177) solid 2px;
+}
 
 
 
