@@ -3,41 +3,310 @@
     padding: 0;
 }
 body{
-    background-color: aqua;
+    background-color: rgb(177, 177, 177);
 }
 
 header{
     padding-top: 2.5%;
     padding-left: 2.5%;
     padding-right: 2.5%;
+    align-self: center;
 }
 
 #contenedor__logolibiaheader{
     padding-left: 1%;
     display: flex;
-    height: 170px;
-    background-color: white;
+    height: 180px;
+    background-color: beige;
     border: 2px solid grey;
+    border-radius: 50px;
+    align-items: center;
 }
 
 #imagen__circularlogoheader{
     width: 12.5%;
-    height: 80%;
+    height: 90%;
     align-self: center;
+    margin-top: 1%;
 }
 
-header img{
-    width: 100%;
-    height: 100%;
+#imagen__header{
+    width: 175%;
+    height: 90%;
+    border-radius: 50px;
 }
 
 #contenedor__libiaheader{
+    margin-top: 0.4%;
     align-self: center;
 }
 
 #contenedor__libiaheader h1{
     font-size: 90px;
+    margin-left: 12%;
 }
+
+
+#menu{
+    
+    background-color: beige;
+    margin-top: 1.5%;
+    height: 70px;
+    border: 2px solid grey;
+    width: 750px;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MAINNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN*/
+
+
+#main{
+    margin-top: 5%;
+    height:  1000px;
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor__2{
+    background-color: beige;
+    border-radius: 50px;
+    line-height: 2;
+    height: 400px;
+}
+
+
+#parrafo__main{
+    margin-top: 6%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+#contenedor__imagenes{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#contenedor__primerafoto{
+    height: 450px;
+    border-radius: 25px;
+}
+#imagen__primerafoto{
+    width: 90%;
+    height: 87.5%;
+    border-radius: 25px;
+    margin-left: 5%;
+    margin-top: 3.7%;
+    border: solid 3px beige;
+    margin-top: 7%;
+}
+
+
+
+
+
+
+
+#contenedor__segundafoto{
+    height: 500px;
+    border-radius: 25px;
+    
+}
+
+#imagen__segundafoto{
+    width: 90%;
+    height: 87.5%;
+    border-radius: 25px;
+    margin-left: 5%;
+    margin-top: 3.7%;
+    border: solid 3px  beige;
+}
+
+
+
+
+
+
+
+/*Sectioooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooon*/
+
+
+#section__mapa{
+    display: flex;
+    justify-content: center;
+    height: 900px;
+}
+
+#contenedor__ubimapa{
+    background-color: beige;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+
+
+#section__h1ubicacion{
+    font-size: 80px;
+    margin-top: 30px;
+}
+
+#section__h1ubicacion{
+    display: flex;
+    justify-content: center;
+}
+
+
+#mapa{
+    margin-top: 6%;
+    width: 90%;
+    height: 600px;
+    margin-left: 5%;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*articleeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
+
+
+#article{
+    margin-top: 8%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+}   
+
+#contenedor__politica{
+    background-color: beige;
+    border-radius: 25px;
+}
+
+
+#contenedor__politca{
+    font-size: 130px;
+    margin-top: 6%;
+    margin-left: 2%;
+    
+}
+
+#h1__politica{
+    font-size: 80px;
+    
+}
+
+
+
+
+
+
+#contenedor__parrafopolitica{
+    line-height: 2.5;
+    margin-top: 6%;
+    height: 500px;
+}
+
+#parrafo__politica{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -48,11 +317,13 @@ header img{
 
 /*MENUUUUUUUUUU*/
 
-#menu{
-    background-color: white;
-    margin-top: 1.5%;
-    height: 70px;
-    border: 2px solid grey;
+
+#contenedor__footer1{
+    display: flex;
+
+    width: 100%;
+    height: 250px;
+    
 }
 
 
@@ -84,6 +355,15 @@ a{
     color: inherit; /* Mantiene el color del texto circundante */
 }
 
+#contenedor__parques{
+    margin-left: 110%;
+}
+
+
+#contenedor__footerlistado{
+    margin-left: 50%;
+}
+
 .li__menu{
     display: flex;
     height: 100%;
@@ -97,100 +377,14 @@ a{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #footer{
-    border-top: 5px solid black;
+    border-top: 2px solid black;
 
 
 
 
 
-    margin-top: 5%;
+    margin-top: 10%;
     width: 100%;
     height: 250px;
     display: grid;
@@ -215,14 +409,16 @@ a{
     grid-area: parques;
 
     margin-top: 3%;
-
+    margin-left: 100%;
     font-size: 20px;
     display: flex;
     justify-content: center;
 }
 
 
-
+#www{
+    width: 200px;
+}
 
 
 
@@ -231,7 +427,6 @@ a{
     margin-top: 3%;
 
     grid-area: listado;
-
     display: flex;
     justify-content: center;
 }
