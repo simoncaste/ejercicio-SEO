@@ -1,6 +1,4 @@
-
-
-* {
+*{
     margin: 0;
     padding: 0;
 }
@@ -9,42 +7,53 @@ body{
     background-color: rgb(177, 177, 177);
 }
 
-header {
-    padding: 2.5% 2.5% 0;
+header{
+    padding-top: 2.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    align-self: center;
 }
 
-#contenedor__logolibiaheader {
+#contenedor__logolibiaheader{
     padding-left: 1%;
     display: flex;
-    height: 200px;
-    background-color: white;
-    border: 2px solid grey;
+    height: 180px;
+    background-color: beige;
+    border-radius: 50px;
+    align-items: center;
 }
 
-#imagen__circularlogoheader {
-    width: 14%;
-    height: 80%;
+#imagen__circularlogoheader{
+    width: 12.5%;
+    height: 90%;
+    align-self: center;
+    margin-top: 1%;
+}
+
+#imagen__header{
+    width: 175%;
+    height: 90%;
+    border-radius: 50px;
+}
+
+#contenedor__libiaheader{
+    margin-top: 0.4%;
     align-self: center;
 }
 
-header img {
-    width: 100%;
-    height: 100%;
+#contenedor__libiaheader h1{
+    font-size: 90px;
+    margin-left: 12%;
 }
 
-#contenedor__libiaheader {
-    align-self: center;
-}
 
-#contenedor__libiaheader h1 {
-    font-size: 100px;
-}
-
-menu {
-    background-color: white;
-    padding-top: 4%;
-    height: 100px;
-    border: 2px solid grey;
+#menu{
+    
+    background-color: beige;
+    margin-top: 1.5%;
+    height: 70px;
+    width: 750px;
+    border-radius: 50px;
 }
 
 .img_carrusel {
@@ -86,6 +95,11 @@ menu {
     75%, 100% { margin-left: -300%; }
 }
 
+a{
+    text-decoration: none;
+    color: inherit; 
+}
+
 #grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -96,17 +110,45 @@ menu {
 
 #texto {
     grid-area: texto;
-    margin-top: 150px;
+    margin-top: 110px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 20px;
 }
 
 .img_danza, .img_vestimenta {
-    width: 100%;
-    height: 100%;
+        width: 100%;
+        height: auto; 
+        border: 5px solid #000; 
+        border-radius: 10px; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);    
 }
 
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: center;
+}
 
-a{
-    text-decoration: none;
-    color: black;
+.texto {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.image img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 300px 0 100px;
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
 }
